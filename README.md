@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Express.js applications where JSON request bodies are not parsed correctly. The bug is caused by incorrect usage of the body-parser middleware, leading to an empty request body. The solution involves proper middleware configuration using express.json() to parse JSON requests.
